@@ -16,7 +16,7 @@
     export default () => <div>Welcome to next.js!</div>
 9. Run project >> npm run dev
 10. Preview project @ http://localhost:3000
-#Chapter2: Try Bootstrap for grid system
+# Chapter2: Try Bootstrap for grid system
 1.Download Boostrap. https://getbootstrap.com/docs/4.1/getting-started/download/
 2. Move "boostrap.min.css" in project folder.
 3. Install "next-css" to make Next.js + CSS happen (Read this! https://github.com/zeit/next-plugins/tree/master/packages/next-css) >> npm install --save @zeit/next-css
