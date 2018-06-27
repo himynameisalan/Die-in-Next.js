@@ -43,4 +43,4 @@ export default class MyDocument extends Document {
 6. Create file "next.config.js" in project folder.
 const withCSS = require('@zeit/next-css')
 module.exports = withCSS()
-7. Try it! https://getbootstrap.com/docs/4.1/layout/grid/ (tutorial: https://www.youtube.com/watch?v=ZFALVm8J-7M)
+7. Use bootstrap grid system! https://getbootstrap.com/docs/4.1/layout/grid/ (tutorial: https://www.youtube.com/watch?v=ZFALVm8J-7M)
