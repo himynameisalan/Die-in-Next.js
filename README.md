@@ -13,7 +13,7 @@
 6. Create folder "pages".
 7. Create file "index.js in "pages".
 8. Add codes in "index.js".
-    export default () => <div>Welcome to next.js!</div>
+export default () => <div>Welcome to next.js!</div>
 9. Run project >> npm run dev
 10. Preview project @ http://localhost:3000
 # Chapter2: Try Bootstrap for grid system
@@ -21,12 +21,9 @@
 2. Move "boostrap.min.css" in project folder.
 3. Install "next-css" to make Next.js + CSS happen (Read this! https://github.com/zeit/next-plugins/tree/master/packages/next-css) >> npm install --save @zeit/next-css
 4. Import "bootstrap.min.css". Add codes in "index.js" (the stylesheet will compile to .next/static/style.css)
-
 import "../bootstrap.min.css"
 5. Create file "_Document.js" to include ".next/static/style.css".
-
 import Document, { Head, Main, NextScript } from 'next/document'
-
 export default class MyDocument extends Document {
   render() {
     return (
@@ -42,7 +39,6 @@ export default class MyDocument extends Document {
     )
   }
 }
-
 6. Create file "next.config.js" in project folder.
 
 const withCSS = require('@zeit/next-css')
