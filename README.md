@@ -1,4 +1,4 @@
-# Die-in-Next.js
+# Next.js-Quick-Start
 
 # Chapter1: Create helloworld project
 1. Create folder >> mkdir helloworld
